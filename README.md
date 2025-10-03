@@ -1,6 +1,6 @@
 # Trade-data-analytics-prime-fear-and-greed
 
-#Methodology Implemented
+# Methodology Implemented
 
 To explore this relationship, I will first created a synthetic, representative dataset using historical_data.csv and fear_greed_index.csv, as the datasets did not have matching dates or positive PnL to allow for a meaningful, combined analysis.
 The following steps were executed:
