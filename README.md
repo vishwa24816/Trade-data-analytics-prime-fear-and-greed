@@ -10,11 +10,11 @@ The following steps were executed:
 •	Sentiment Analysis: Performance metrics were grouped and averaged by the FGI classification (Extreme Greed, Greed, Fear, etc.) to find patterns.
 The merged, daily data used for the final analysis is provided in the file fear and greed index
 
-#Analysis Summary
+# Analysis Summary
 The analysis reveals an efficiency-driven edge for traders where Extreme Greed (FGI 81-100) is the most statistically reliable and profitable trading zone. Similarly, while the trader sees high PnL during Extreme Fear (FGI 0-20), trades executed during the intermediate Fear (FGI 21-40) zone are the least efficient, consuming high volume for less returns.
 The key takeaway is that the trader's profitability is driven by quality over quantity, specifically in moments of high sentiment conviction.
 
-#1. Detailed Relationship Between Performance and Sentiment
+# 1. Detailed Relationship Between Performance and Sentiment
 By segmenting performance based on the range of Fear & Greed Index (FGI) value, we can precisely map profitability metrics to market sentiment zones.
 FGI Zone	Avg. Daily PnL (USD)	Win Rate	Avg. PnL per Volume (Efficiency)	Total Days Observed
 Extreme Fear (0-20)	76,048.89	66.67%	0.009486	9
@@ -28,7 +28,7 @@ High PnL, High Risk in Extreme Fear: The Extreme Fear (0-20) zone yields the hig
 Low Efficiency in Intermediate Zones: The Fear (21-40) and Neutral (41-60) zones show the lowest PnL Efficiency ratios (0.005411 and 0.007782, respectively). This is a strong indicator that the trader is expending significant volume/capital for marginal or inconsistent returns.
 Most Frequent Trading Environment is Least Profitable: The trader spent the most days (250 days) in the Greed (61-80) zone, yet this period generated the lowest average daily PnL (11,627.40).
 
-#2. Uncovered Hidden Patterns and Profitable Opportunities
+# 2. Uncovered Hidden Patterns and Profitable Opportunities
 The hidden pattern lies in the discrepancy between Volume/PnL and Efficiency/Win Rate. The patterns which are observed to follow them are :-
 Pattern 1: The Extreme Greed is a Contrarian Edge
 Hidden Pattern: When the market reaches Extreme Greed i.e FGI 81-100, the trader's Win Rate skyrockets to 94.12%, and the profit generated per dollar of volume is the highest at 0.035584 . This strongly suggests a highly profitable, contrarian SELL or Shorting strategy where the traders are accurately capitalizing on market overextension with high-quality and smaller volume trades.
@@ -40,7 +40,7 @@ Pattern 3: The Extreme Fear Momentum Opportunity
 Hidden Pattern: The highest absolute PnL is generated in Extreme Fear i.e FGI 0-20 despite a moderate Win Rate. This points toward a volatile and momentum-based BUY or Long strategy where the traders are accurately capturing massive price swings ( looks like a “reversion to the mean” strategy). The lower Win Rate suggests these trades carry higher risk but deliver explosive PnL when they work just like “zero to hero” strategy.
 Trading Strategy: Reserve a small portion of capital specifically for small-size trades when the FGI is below 20. Treat these as high-impact momentum bets, understanding the Win Rate is lower, but the PnL return on successful trades is massive.
 
-#3. Smarter Trading Strategies
+# 3. Smarter Trading Strategies
 Based on the insights found, the trading strategy can be put into a clear and rules-based system.
 Sentiment-Based Risk Management:
 High Risk/High Reward (FGI < 20): Use minimum size for high-conviction long trades like buying the dip.
